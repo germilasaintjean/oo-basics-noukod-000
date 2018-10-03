@@ -1,8 +1,4 @@
 class Shoe
-  def brand=(brand)
-    @brand = brand
-      end
-      def brand
-        brand
-      end
+  attr_accessor :color , :size, :materiel , :condition
+  attr_writer :brand
 end
