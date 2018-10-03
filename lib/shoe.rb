@@ -6,9 +6,10 @@ class Shoe
   end
 
   def materiel=(materiel)
-    @materiel=materiel
+    @materiel= materiel
   end
   def materiel
-    @materiel
+    @materiel = "suede"
   end
 end
+
