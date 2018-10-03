@@ -5,4 +5,10 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
+def materiel=(materiel)
+  @materiel = materiel
 end
+end
+s = Shoe.new
+Shoe.materiel =  "suede"
+Shoe.materiel
