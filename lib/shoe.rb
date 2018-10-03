@@ -5,4 +5,10 @@ class Shoe
     @brand = brand
   end
 
+  def materiel=(materiel)
+    @materiel=materiel
+  end
+  def materiel
+    @materiel
+  end
 end
