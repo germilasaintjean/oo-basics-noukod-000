@@ -12,4 +12,3 @@ class Shoe
     @materiel = "suede"
   end
 end
-
