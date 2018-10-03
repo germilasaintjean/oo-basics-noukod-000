@@ -9,6 +9,6 @@ def materiel=(materiel)
   @materiel = materiel
 end
 end
-s = Shoe.new
+shoe = Shoe.new
 Shoe.materiel =  "suede"
 Shoe.materiel
