@@ -9,6 +9,8 @@ class Shoe
     @materiel= materiel
   end
   def materiel
-    @materiel = "suede"
+    @materiel 
   end
 end
+s = Shoe.new
+s.materiel = "suede"
